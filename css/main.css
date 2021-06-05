@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+body, h1 h2, h3, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  background-color: black;
+  border-bottom: 4px solid darkgreen;
+}
+.header .contast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .contast h1 {
+  color: #ffffff;
+  padding: 15px 0;
+}
+.header .contast h1 span {
+  color: coral;
+}
+.header .contast .navbar {
+  display: flex;
+}
+.header .contast .navbar li a {
+  color: #ffffff;
+  padding: 25px 20px;
+}
+.header .contast .navbar li a:hover {
+  background-color: darkblue;
+}
+
+.banner {
+  height: 60vh;
+  background-image: url(../image6.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+.banner h1 {
+  margin-bottom: 25px;
+  padding-top: 150px;
+  font-size: 50;
+}
+.banner p {
+  line-height: 25px;
+}
+
+.section {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.section .flec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .flec .rauyt input {
+  padding: 5px;
+}
+.section .flec .rauyt .butoon {
+  padding: 7px 15px;
+  border: none;
+  background-color: coral;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.footer-logo {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer-logo .box {
+  width: 33.3%;
+  float: left;
+}
+.footer-logo .box img {
+  max-width: 100%;
+}
+.footer-logo .box h3 {
+  padding: 15px 0 0 0;
+}
+.footer-logo .box p {
+  line-height: 20px;
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=main.css.map */
